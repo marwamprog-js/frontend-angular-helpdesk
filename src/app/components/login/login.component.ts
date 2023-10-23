@@ -36,7 +36,6 @@ export class LoginComponent {
       });
   }
 
-
   validaCampos(): boolean {
     return this.email.valid && this.senha.valid;
   }
